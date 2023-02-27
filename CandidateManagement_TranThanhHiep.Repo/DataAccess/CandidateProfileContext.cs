@@ -25,7 +25,7 @@ public class CandidateProfileContext
         return candidateManagementContext.CandidateProfiles.ToList();
     }
 
-    public IList<CandidateProfile> getCanidatePages(int pageSize, int pageIndex) 
+    public List<CandidateProfile> getCanidatePages(int pageIndex, int pageSize) 
     {
         return candidateManagementContext.CandidateProfiles.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
         

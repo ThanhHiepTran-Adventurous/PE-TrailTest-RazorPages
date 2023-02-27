@@ -13,7 +13,7 @@ public class IndexModel : PageModel
     private ICandidateProfileRepo candidateProfileRepo;
 
    // private readonly ICandidateService _candidateService;
-    private CandidateProfileContext candidateProfileContext;
+    private CandidateProfileContext candidateProfileContext = new CandidateProfileContext();
     private CandidateManagementContext candidateManagementContext = new CandidateManagementContext();
 
     private readonly ILogger<IndexModel> _logger;
@@ -22,7 +22,7 @@ public class IndexModel : PageModel
     {
         //_logger = logger;
             candidateProfileRepo = new CandidateProfileRepo();
-          candidateProfileContext = new CandidateProfileContext();
+         // candidateProfileContext = new CandidateProfileContext();
       //  candidateManagementContext = _db;
         // _candidateService = candidateService;
     }
@@ -58,30 +58,12 @@ public class IndexModel : PageModel
             Response.Redirect("/Login");
         }
 
-        CandidateProfile = candidateManagementContext.CandidateProfiles.Skip((p -1) * s).Take(s).ToList();
+        //CandidateProfile = candidateManagementContext.CandidateProfiles.Skip((p -1) * s).Take(s).ToList();
+        CandidateProfile = candidateProfileContext.getCanidatePages(p,s);
         pageSize = s;
-        totalCandidate = candidateManagementContext.CandidateProfiles.Count();
+        totalCandidate = candidateProfileContext.getTotalCandidatePages();
+        //totalCandidate = candidateManagementContext.CandidateProfiles.Count();
         pageNo = p;
-
-        //if(page != null)
-        //{
-        //    CurrentPage = (int)page;
-        //}
-
-
-        //var data = await _candidateManagementContext.CandidateProfiles
-        //   .OrderBy(c => c.CandidateId)
-        //   .Skip((CurrentPage - 1) * PageSize)
-        //   .Take(PageSize)
-        //   .ToListAsync();
-
-        //var count = await _candidateManagementContext.CandidateProfiles.CountAsync();
-
-        //TotalPages = (int)Math.Ceiling(count/ (double)PageSize);
-
-        //CandidateProfile = data;
-
-        // CandidateProfile = candidateProfileRepo.GetCandidateProfiles();
     }
 
 
