@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CandidateManagement_TranThanhHiep
+build_property.RootNamespace = CandidateManagement_TranThanhHiep
+build_property.ProjectDir = C:\Users\Acer\OneDrive\Máy tính\PRN221-TrialTest\PRN221_TrialTest\PRN221PE_FA22_TrialTest_TranThanhHiep\CandidateManagement_TranThanhHiep\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Acer\OneDrive\Máy tính\PRN221-TrialTest\PRN221_TrialTest\PRN221PE_FA22_TrialTest_TranThanhHiep\CandidateManagement_TranThanhHiep
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/CandidateCRUD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQ1JVRFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/CandidateCRUD/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQ1JVRFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/CandidateCRUD/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQ1JVRFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/CandidateCRUD/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQ1JVRFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/CandidateCRUD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQ1JVRFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Candidate/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Candidate/CandidateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXENhbmRpZGF0ZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Candidate/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/OneDrive/Máy tính/PRN221-TrialTest/PRN221_TrialTest/PRN221PE_FA22_TrialTest_TranThanhHiep/CandidateManagement_TranThanhHiep/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8q3tpchaq2

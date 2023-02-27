@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CandidateManagement_TranThanhHiep.Repo
+build_property.ProjectDir = C:\Users\Acer\OneDrive\Máy tính\PRN221-TrialTest\PRN221_TrialTest\PRN221PE_FA22_TrialTest_TranThanhHiep\CandidateManagement_TranThanhHiep.Repo\

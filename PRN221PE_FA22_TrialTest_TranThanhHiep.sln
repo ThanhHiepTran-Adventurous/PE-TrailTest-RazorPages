@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateManagement_TranThanhHiep", "CandidateManagement_TranThanhHiep\CandidateManagement_TranThanhHiep.csproj", "{B863B298-707F-454F-B83C-CF0C39FA7C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateManagement_TranThanhHiep.Repo", "CandidateManagement_TranThanhHiep.Repo\CandidateManagement_TranThanhHiep.Repo.csproj", "{17B74F03-AAAB-4E48-A38B-F53E613C728C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B863B298-707F-454F-B83C-CF0C39FA7C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B863B298-707F-454F-B83C-CF0C39FA7C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B863B298-707F-454F-B83C-CF0C39FA7C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B863B298-707F-454F-B83C-CF0C39FA7C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B74F03-AAAB-4E48-A38B-F53E613C728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B74F03-AAAB-4E48-A38B-F53E613C728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B74F03-AAAB-4E48-A38B-F53E613C728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B74F03-AAAB-4E48-A38B-F53E613C728C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A3383A7-7DB5-4408-A216-C29A60B02A44}
+	EndGlobalSection
+EndGlobal
