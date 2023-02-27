@@ -21,8 +21,8 @@ public class IndexModel : PageModel
     public IndexModel()
     {
         //_logger = logger;
-        //    candidateProfileRepo = new CandidateProfileRepo();
-        //  candidateProfileContext = new CandidateProfileContext();
+            candidateProfileRepo = new CandidateProfileRepo();
+          candidateProfileContext = new CandidateProfileContext();
       //  candidateManagementContext = _db;
         // _candidateService = candidateService;
     }
@@ -49,40 +49,6 @@ public class IndexModel : PageModel
     public int pageSize { get; set; }
 
 
-
-
-
-
-
-    //public int CurrentPage { get; set; } = 1;
-
-
-    //public int PageSize { get; set; } = 3;
-
-
-
-    //public int TotalPages { get; set; }
-
-
-    //public bool HasPreviousPage
-    //{
-    //    get { return (CurrentPage > 1); }
-    //}
-
-    //public bool HasNextPage
-    //{
-    //    get { return (CurrentPage < TotalPages); }
-    //}
-
-    //public int PreviousPage
-    //{
-    //    get { return (CurrentPage - 1); }
-    //}
-
-    //public int NextPage
-    //{
-    //    get { return (CurrentPage + 1); }
-    //} 
 
 
     public void OnGet(int p = 1, int s = 3)
@@ -119,24 +85,24 @@ public class IndexModel : PageModel
     }
 
 
-    //public IActionResult OnPostSearch()
-    //{
-    //    string search = Request.Form["txtSearch"];
-    //    string type = Request.Form["type"];
-    //    if (search != null && type.Equals("1"))
-    //    {
-    //        CandidateProfile = candidateProfileRepo.searchByFullName(search);
-    //        return Page();
-    //    }
-    //    else if (search != null && type.Equals("2"))
-    //    {
-    //        CandidateProfile = candidateProfileRepo.searchByBirthDay(search);
-    //        return Page();
+    public IActionResult OnPostSearch()
+    {
+        string search = Request.Form["txtSearch"];
+        string type = Request.Form["type"];
+        if (search != null && type.Equals("1"))
+        {
+            CandidateProfile = candidateProfileRepo.searchByFullName(search);
+            return Page();
+        }
+        else if (search != null && type.Equals("2"))
+        {
+            CandidateProfile = candidateProfileRepo.searchByBirthDay(search);
+            return Page();
 
-    //    }
-    //    CandidateProfile = candidateProfileRepo.GetCandidateProfiles();
-    //    return Page();
-    //}
+        }
+        CandidateProfile = candidateProfileRepo.GetCandidateProfiles();
+        return Page();
+    }
 
 }
 
