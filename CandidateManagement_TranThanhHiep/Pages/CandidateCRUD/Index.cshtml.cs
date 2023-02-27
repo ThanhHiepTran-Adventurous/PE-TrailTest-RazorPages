@@ -86,5 +86,13 @@ public class IndexModel : PageModel
         return Page();
     }
 
+
+    public IActionResult OnGetLogout()
+    {
+        HttpContext.Session.Remove("email");
+        return RedirectToPage("/Index");
+    }
+
+
 }
 
